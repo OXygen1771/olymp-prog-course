@@ -1,0 +1,11 @@
+[project]
+name = "olympprog"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.10",
+    "ty>=0.0.84",
+]
